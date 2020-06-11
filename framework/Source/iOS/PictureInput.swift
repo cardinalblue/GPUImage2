@@ -37,7 +37,7 @@ public class PictureInput: ImageSource {
         }
         
         var imageData:UnsafeMutablePointer<GLubyte>!
-        var dataFromImageDataProvider:CFData!
+        var dataFromImageDataProvider:CFData
         var format = GL_BGRA
         
         if (!shouldRedrawUsingCoreGraphics) {
@@ -86,7 +86,7 @@ public class PictureInput: ImageSource {
             imageContext?.draw(image, in:CGRect(x:0.0, y:0.0, width:CGFloat(widthToUseForTexture), height:CGFloat(heightToUseForTexture)))
         } else {
             // Access the raw image bytes directly
-            dataFromImageDataProvider = image.dataProvider?.data
+            dataFromImageDataProvider = image.dataProvider?.data ?? Data() as CFData
             imageData = UnsafeMutablePointer<GLubyte>(mutating:CFDataGetBytePtr(dataFromImageDataProvider))
         }
         
