@@ -137,7 +137,6 @@
 		BC9E35081E524C5B00B8604F /* OpenGLContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E35051E524C5700B8604F /* OpenGLContext.swift */; };
 		BC9E35191E524CF100B8604F /* MovieInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E350C1E524CB900B8604F /* MovieInput.swift */; };
 		BC9E351B1E524CF500B8604F /* PictureInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E350D1E524CB900B8604F /* PictureInput.swift */; };
-		BC9E351D1E524CF900B8604F /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E350B1E524CB900B8604F /* Camera.swift */; };
 		BC9E35271E524D5300B8604F /* RenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E35231E524D4D00B8604F /* RenderView.swift */; };
 		BC9E35281E524D5700B8604F /* PictureOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E35221E524D4D00B8604F /* PictureOutput.swift */; };
 		BC9E35291E524D5B00B8604F /* MovieOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9E35211E524D4D00B8604F /* MovieOutput.swift */; };
@@ -1316,6 +1315,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = BC6E7CA11C39A9D8006DF678;
@@ -1579,7 +1579,6 @@
 				BC9E35B71E5257B300B8604F /* ThresholdSketch.swift in Sources */,
 				BC9E35711E5256D500B8604F /* LevelsAdjustment.swift in Sources */,
 				BC9E358A1E52572600B8604F /* HistogramDisplay.swift in Sources */,
-				BC9E351D1E524CF900B8604F /* Camera.swift in Sources */,
 				BC9E35BC1E5257C200B8604F /* Solarize.swift in Sources */,
 				BC9E35C11E5257D300B8604F /* ColorBlend.swift in Sources */,
 				BC9E35071E524C5B00B8604F /* OpenGLContext.swift in Sources */,
